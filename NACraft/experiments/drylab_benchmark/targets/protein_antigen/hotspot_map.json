@@ -1,0 +1,167 @@
+{
+  "b7h3": {
+    "source_pdb": "B7H3_truncated2.pdb",
+    "chain_in_pdb": "A",
+    "hotspots": {
+      "284": {
+        "position_1based": 145,
+        "resname": "ILE",
+        "one_letter": "I"
+      },
+      "293": {
+        "position_1based": 154,
+        "resname": "LEU",
+        "one_letter": "L"
+      },
+      "341": {
+        "position_1based": 202,
+        "resname": "PHE",
+        "one_letter": "F"
+      },
+      "347": {
+        "position_1based": 208,
+        "resname": "PHE",
+        "one_letter": "F"
+      }
+    }
+  },
+  "pdl1": {
+    "source_pdb": "PDL1_truncated.pdb",
+    "chain_in_pdb": "B",
+    "hotspots": {
+      "55": {
+        "position_1based": 36,
+        "resname": "ILE",
+        "one_letter": "I"
+      },
+      "57": {
+        "position_1based": 38,
+        "resname": "TYR",
+        "one_letter": "Y"
+      },
+      "69": {
+        "position_1based": 50,
+        "resname": "VAL",
+        "one_letter": "V"
+      },
+      "116": {
+        "position_1based": 97,
+        "resname": "MET",
+        "one_letter": "M"
+      },
+      "122": {
+        "position_1based": 103,
+        "resname": "ALA",
+        "one_letter": "A"
+      },
+      "124": {
+        "position_1based": 105,
+        "resname": "TYR",
+        "one_letter": "Y"
+      }
+    }
+  },
+  "cd3d": {
+    "source_pdb": "CD3d_truncated.pdb",
+    "chain_in_pdb": "d",
+    "hotspots": {
+      "41": {
+        "position_1based": 20,
+        "resname": "ILE",
+        "one_letter": "I"
+      },
+      "43": {
+        "position_1based": 22,
+        "resname": "TRP",
+        "one_letter": "W"
+      },
+      "48": {
+        "position_1based": 27,
+        "resname": "VAL",
+        "one_letter": "V"
+      },
+      "51": {
+        "position_1based": 30,
+        "resname": "LEU",
+        "one_letter": "L"
+      },
+      "55": {
+        "position_1based": 34,
+        "resname": "ILE",
+        "one_letter": "I"
+      },
+      "58": {
+        "position_1based": 37,
+        "resname": "LEU",
+        "one_letter": "L"
+      }
+    }
+  },
+  "tnfr1": {
+    "source_pdb": "TNFR1_7KPB.pdb",
+    "chain_in_pdb": "E",
+    "hotspots": {
+      "80": {
+        "position_1based": 67,
+        "resname": "MET",
+        "one_letter": "M"
+      },
+      "103": {
+        "position_1based": 90,
+        "resname": "TYR",
+        "one_letter": "Y"
+      },
+      "107": {
+        "position_1based": 94,
+        "resname": "TRP",
+        "one_letter": "W"
+      },
+      "111": {
+        "position_1based": 98,
+        "resname": "LEU",
+        "one_letter": "L"
+      },
+      "115": {
+        "position_1based": 102,
+        "resname": "PHE",
+        "one_letter": "F"
+      },
+      "144": {
+        "position_1based": 131,
+        "resname": "PHE",
+        "one_letter": "F"
+      },
+      "151": {
+        "position_1based": 138,
+        "resname": "VAL",
+        "one_letter": "V"
+      }
+    }
+  },
+  "fgfr2": {
+    "source_pdb": "FGFR2_truncated.pdb",
+    "chain_in_pdb": "A",
+    "hotspots": {
+      "143": {
+        "position_1based": 143,
+        "resname": "ILE",
+        "one_letter": "I"
+      },
+      "161": {
+        "position_1based": 161,
+        "resname": "LEU",
+        "one_letter": "L"
+      },
+      "195": {
+        "position_1based": 195,
+        "resname": "LEU",
+        "one_letter": "L"
+      },
+      "202": {
+        "position_1based": 202,
+        "resname": "ILE",
+        "one_letter": "I"
+      }
+    }
+  }
+}

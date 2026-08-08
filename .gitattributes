@@ -1,0 +1,3 @@
+# PDB and mmCIF source structures can contain fixed-column trailing spaces.
+*.pdb -whitespace
+*.cif -whitespace

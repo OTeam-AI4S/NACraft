@@ -1,0 +1,26 @@
+target_id: 9RVP
+method: NACraft-similarity_guided
+polymer_type: rna
+predictor: boltz
+num_states: 1
+length: 34
+motifs: []
+states:
+  -
+    - protein:GSHMNPASLYRIDLFITFTDELITFDYKVHGRPVLTFRIPGFGLTPAGRMLVCMGEKPAHSPFTSSKSLYHVIFTSTCNSFSFTIYKGRYRSWKKPIHDELVDRGYTTFREFFKAVRGYHADYYKQRLIHDVEMNPG
+hotspots:
+  - A:85:ARG
+  - A:89:TRP
+  - A:87:ARG
+  - A:7:ARG
+losses:
+  -
+    type: LigandContactLoss
+    state: 0
+  -
+    type: SequenceSimilarityLoss
+    target_sequence: CAAGGUGCGGUGCUAACUAAAUCCCUAGCACCCC
+    strength: 0.1
+init_seq: CAAGGUGCGGUGCUAACUAAAUCCCUAGCACCCC
+ablation:
+contact_loss: True

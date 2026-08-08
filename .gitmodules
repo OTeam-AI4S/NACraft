@@ -1,0 +1,3 @@
+[submodule "NACraft/NA-MPNN"]
+	path = NACraft/NA-MPNN
+	url = https://github.com/baker-laboratory/NA-MPNN.git

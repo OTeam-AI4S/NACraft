@@ -1,0 +1,26 @@
+target_id: 8X0N
+method: NACraft-similarity_guided
+polymer_type: rna
+predictor: boltz
+num_states: 1
+length: 12
+motifs: []
+states:
+  -
+    - protein:MSKSESPKEPEQLRKLFIGGLSFETTDESLRSHFEQWGTLTDCVVMRDPNTKRSRGFGFVTYATVEEVDAAMNARPHKVDGRVVEPKRAVSREDSQRPGAHLTVKKIFVGGIKEDTEEHHLRDYFEQYGKIEVIEIMTDRGSGKKRGFAFVTFDDHDSVDKIVIQKYHTVNGHNCEVRKALSKQEMASASSSQRGRHHHHHH
+hotspots:
+  - A:17:PHE
+  - A:92:ARG
+  - A:59:PHE
+  - A:55:ARG
+losses:
+  -
+    type: LigandContactLoss
+    state: 0
+  -
+    type: SequenceSimilarityLoss
+    target_sequence: UUAGGGUUAGGG
+    strength: 0.1
+init_seq: UUAGGGUUAGGG
+ablation:
+contact_loss: True

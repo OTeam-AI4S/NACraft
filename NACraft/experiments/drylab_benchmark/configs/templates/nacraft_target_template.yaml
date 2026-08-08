@@ -1,0 +1,9 @@
+polymer_type: rna_or_dna
+num_states: 1
+length: native_na_length
+motifs: []
+states:
+  - ["protein:TARGET_PROTEIN_SEQUENCE"]
+losses:
+  - type: LigandContactLoss
+    state: 0

@@ -1,0 +1,9 @@
+-e ./NACraft/boltz
+biopython>=1.84
+dm-tree>=0.1.8
+gemmi>=0.6.7
+numpy==1.26.3
+pandas>=2.2
+prody>=2.4
+pyyaml>=6.0
+torch>=2.2

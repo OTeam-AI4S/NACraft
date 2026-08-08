@@ -1,0 +1,25 @@
+target_id: egfr_domainIII_vs_her2_domainIII_L40_dna
+method: NACraft-target-selective
+polymer_type: dna
+predictor: boltz
+num_states: 2
+length: 40
+motifs: []
+states:
+  -
+    - protein:YGLGMEHLREVRAVTSANIQEFAGCKKIFGSLAFLPESFDGDPASNTAPLQPEQLQVFETLEEITGYLYISAWPDSLPDLSVFQNLQVIRGRILHNGAYSLTLQGLGISWLGLRSLRELGSGLALIHHNTHLCFVHTVPWDQLFRNPHQALLHTANRPEDECVGEGLA
+  -
+    - protein:RKVCNGIGIGEFKDSLSINATNIKHFKNCTSISGDLHILPVAFRGDSFTHTPPLDPQELDILKTVKEITGFLLIQAWPENRTDLHAFENLEIIRGRTKQHGQFSLAVVSLNITSLGLRSLKEISDGDVIISGNKNLCYANTINWKKLFGTSGQKTKIISNRGENKCKATGQ
+hotspots: []
+losses:
+  -
+    type: AntiLigandContactLoss
+    state: 0
+    strength: 1.0
+  -
+    type: LigandContactLoss
+    state: 1
+    strength: 1.0
+init_seq:
+ablation:
+contact_loss: False

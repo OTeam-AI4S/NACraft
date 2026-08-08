@@ -1,0 +1,22 @@
+target_id: 9RVP
+method: NACraft-denovo
+polymer_type: rna
+predictor: boltz
+num_states: 1
+length: 34
+motifs: []
+states:
+  -
+    - protein:GSHMNPASLYRIDLFITFTDELITFDYKVHGRPVLTFRIPGFGLTPAGRMLVCMGEKPAHSPFTSSKSLYHVIFTSTCNSFSFTIYKGRYRSWKKPIHDELVDRGYTTFREFFKAVRGYHADYYKQRLIHDVEMNPG
+hotspots:
+  - A:85:ARG
+  - A:89:TRP
+  - A:87:ARG
+  - A:7:ARG
+losses:
+  -
+    type: LigandContactLoss
+    state: 0
+init_seq:
+ablation:
+contact_loss: True
