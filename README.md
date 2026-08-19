@@ -358,12 +358,14 @@ NACraft is released under the [MIT License](LICENSE).
 ## Citation
 
 If you find our work helpful, please star and cite our paper:
-
 ```bibtex
-@software{nacraft,
-  author  = {Zhu, Heqin and Wang, Jiaqi and Zhao, Weibo and Xu, Yuzhi and Wang, Jianmin and Wang, Qinghan and Yu, Yuntao and You, Ziyi and Du, Gang and Heng, Pheng Ann and Zhang, Liqin and Zhang, Odin},
-  title   = {NACraft: Programmatic nucleic-acid aptamer design via all-atom structure-model feedback},
-  year    = {2026},
-  url     = {https://github.com/heqin-zhu/NACraft}
+@article{zhu_nacraft_2026,
+	title = {{NACraft}: {Programmatic} nucleic-acid aptamer design via all-atom structure-model feedback},
+	author = {Zhu, Heqin and Wang, Jiaqi and Zhao, Weibo and XU, YUZHI and Su, Huang and Wang, Jianmin and Wang, Qianhan and Yu, Yuntao and You, Ziyi and Du, Gang and Heng, Pheng Ann and Zhang, Liqin and Zhang, Odin},
+	journal = {bioRxiv},
+	year = {2026},
+	publisher = {Cold Spring Harbor Laboratory},
+	url = {https://www.biorxiv.org/content/early/2026/08/18/2026.08.15.744087},
+	doi = {10.64898/2026.08.15.744087},
 }
 ```
