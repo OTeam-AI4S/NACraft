@@ -361,7 +361,7 @@ If you find our work helpful, please star and cite our paper:
 ```bibtex
 @article{zhu_nacraft_2026,
 	title = {{NACraft}: {Programmatic} nucleic-acid aptamer design via all-atom structure-model feedback},
-	author = {Zhu, Heqin and Wang, Jiaqi and Zhao, Weibo and XU, YUZHI and Su, Huang and Wang, Jianmin and Wang, Qianhan and Yu, Yuntao and You, Ziyi and Du, Gang and Heng, Pheng Ann and Zhang, Liqin and Zhang, Odin},
+	author = {Zhu, Heqin and Wang, Jiaqi and Zhao, Weibo and Xu, Yuzhi and Su, Huang and Wang, Jianmin and Wang, Qianhan and Yu, Yuntao and You, Ziyi and Du, Gang and Heng, Pheng Ann and Zhang, Liqin and Zhang, Odin},
 	journal = {bioRxiv},
 	year = {2026},
 	publisher = {Cold Spring Harbor Laboratory},
